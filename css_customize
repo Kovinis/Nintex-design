@@ -1,0 +1,99 @@
+
+/* Template styles */
+.nf-form-input
+{
+background-color: #f4f2ed;
+}
+.nf-form-input .nf-filler-control-inner, .nf-form-label .nf-filler-control-inner
+{
+top: 10px;
+bottom: 10px;
+left: 10px;
+right: 10px;
+}
+.nf-form-input .nf-textbox-wrapper
+{
+left: 0px;
+right: 0px;
+}
+.nf-section
+{
+border-top: 1px solid #FFCC66;
+margin-top: -1px;
+}
+.nf-section-bottom
+{
+border-top: 2px solid #FFCC66;
+margin-top: -2px;
+}
+.nf-item
+{
+background-color: white;
+}
+.nf-item-alternating
+{
+background-color: #ffe7a6;
+}
+/* Mobile styles */
+.nf-mobile-form
+{
+background-color: inherit;
+}
+.nf-mobile-form .nf-form-input .nf-filler-control-inner
+{
+top: 4px;
+bottom: 10px;
+left: 10px;
+right: 10px;
+}
+.nf-mobile-form .nf-form-label .nf-filler-control-inner
+{
+top: 5px;
+bottom: 1px;
+left: 10px;
+right: 10px;
+}
+.nf-mobile-form .nf-form-input, .nf-mobile-form .nf-form-label
+{
+background-color: #ffe7a6;
+}
+/* Nintex Mobile styles */
+.nf-nintexmobile-form .nf-form-input, .nf-nintexmobile-form .nf-form-label 
+{
+background-color: transparent !important;
+}
+/* Out of Dialog styles */
+.nf-non-dialog-outer
+{
+padding: 20px 0px;
+}
+.nf-non-dialog-outer .nf-filler-wrapper-outer
+{
+margin: 0px auto;
+position: relative;
+background-color: #A7AAAE;
+}
+.nf-non-dialog-outer .nf-filler-wrapper
+{
+border: 1px solid #333;
+background-color: white;
+position: relative;
+top: -5px;
+left: -5px;
+}
+/* IE 8 designer fix */
+.nf-mobile-form #uiDesignerSurface .nf-section
+{
+border-top: inherit;
+margin-top: inherit;
+}
+.nf-mobile-form #uiDesignerSurface .nf-section-bottom
+{
+border-bottom: inherit;
+margin-bottom: inherit;
+}
+.cssHide
+{
+visibility:hidden;
+}
+ 
